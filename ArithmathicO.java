@@ -1,11 +1,27 @@
-public class ArithmathicO {
+class student(){
+    student(){
+        System.out.println("tum nhi ho ");
 
-    public static void main(String[] args) {
-        int a=29;
-        int b=5;
-        System.out.println("Addition: " +(a+b));
-        System.out.println("substraction: " +(a-b)); //  (a*b)    
-        System.out.println("multiplication: " + (a*b));
-        System.out.println("Division: " +(a/b));
     }
+    student(int a){
+        this();
+        System.out.println(a);
+    }
+    student(int a,int b){
+        this(5);
+        System.out.println(a+b);
+    }
+    void sum(){
+        System.out.println("sum");
+    }
+}
+
+
+class ArithmathicO {
+    public static void main(String[] args) {
+        student obj=new student(2,5);
+        obj.sum();
+
+    }
+
 }
