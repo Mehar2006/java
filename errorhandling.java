@@ -15,7 +15,7 @@
 // }
 //     }
 
-public class errorhandling {
+public class errorhandling{
       public static void main(String[] args){
         int [] arr={1,2,3,4};
         try {
@@ -30,9 +30,12 @@ public class errorhandling {
         catch(ArithmeticException e){
             System.out.println(e);
         }
-       
+        finally{
+            
+        }
 
       }
     }
+    
    // we can make mutliple catch with repect to try
 
