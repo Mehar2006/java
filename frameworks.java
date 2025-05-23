@@ -15,10 +15,14 @@ public class frameworks {
          System.out.println(arr.size());// tells the size of dynamic array
           System.out.println(arr.isEmpty());// check the array is empty or not
          System.out.println(arr.contains("rahul"));
-         Collections.sort(arr);
-         System.out.println(arr);
-         arr.clear();// delet all the elemt from the array
-         System.out.println(arr);
+
+
+        //  Collections.sort(arr);
+        //  System.out.println(arr);
+        //  arr.clear();// delet all the elemt from the array
+        //  System.out.println(arr);
+
+
 
          
 
