@@ -39,12 +39,4 @@
     
    // we can make mutliple catch with repect to try
 
-   public class errorhandling{
-    public static void main(String[] args){
-
-        int[]arr={2,3,4,4,6};
-        
-        
-    }
-}
-
+   
