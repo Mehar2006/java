@@ -24,12 +24,15 @@ public class practiceQ{
 
             if (currentSum + currentElement > currentElement) {
                 currentSum = currentSum + currentElement;
+                System.out.println(currentSum);
             } else {
                 currentSum = currentElement;
+                System.out.println(currentSum);
             }
 
             if (currentSum > maxSum) {
                 maxSum = currentSum;
+                System.out.println(maxSum);
             }
         }
 

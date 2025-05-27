@@ -4,6 +4,7 @@ import java.util.Collections;
 public class frameworks {
     public static void main(String[] args) {
          ArrayList<String> arr=new ArrayList<>();//  this is Dynamic array 
+         long start = System.nanoTime();// tell the time taken in nano sec
          arr.add("rahul");
          arr.add("mohit");// add element into the array
          arr.add("rohit");
@@ -15,6 +16,9 @@ public class frameworks {
          System.out.println(arr.size());// tells the size of dynamic array
           System.out.println(arr.isEmpty());// check the array is empty or not
          System.out.println(arr.contains("rahul"));
+
+         long end = System.nanoTime();
+         System.out.println(end-start);
 
 
         //  Collections.sort(arr);
