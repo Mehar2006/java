@@ -7,9 +7,6 @@ public class frameworks1 {
        arr.add(5);
        System.out.println(arr.contains(5));
        long end = System.nanoTime();
-       System.out.println(end-start);
-       
-        
-    }
-    
+       System.out.println(end-start);   
+    } 
 }
