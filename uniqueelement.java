@@ -1,5 +1,4 @@
 import java.util.TreeSet;
-
 public class uniqueelement {
     public static void main(String[] args) {
         int [] ar={1,2,2,42,4,5,3,53,45,3,5};
