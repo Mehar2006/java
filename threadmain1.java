@@ -5,7 +5,7 @@ class Main extends Thread{
         this.withdrawal = withdrawal;
     }
     public void run(){
-        synchronized(Main.class){
+        synchronized(Main.class){ // here we apply the synchornized method which inbuilt
             if(balance >withdrawal){
             System.out.println("is going to withdrawal"+" "+withdrawal);
             try {
