@@ -2,7 +2,7 @@
 
 
 
-class MyRunnable implements  java.lang.Runnable{
+class MyRunnable implements{
     public void run(){
         System.out.println("thread using runnable interface");
     }
